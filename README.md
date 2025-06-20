@@ -50,7 +50,7 @@ A responsive React-based web application built with Next.js that allows users to
 
 1. **Clone the repository**:
 \`\`\`bash
-git clone <your-repo-url>
+git clone https://github.com/GaznavieAhad12/GitHub-User-Search
 cd github-user-search
 \`\`\`
 

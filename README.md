@@ -12,11 +12,6 @@ A responsive React-based web application built with Next.js that allows users to
 - **Error Handling**: User-friendly error messages
 - **Responsive Design**: Mobile-first, fluid layout with card-based design
 
-### Bonus Features
-- **Debounced Search**: Automatic search with 500ms delay as you type
-- **Dark Mode Toggle**: Switch between light and dark themes
-- **Clean UI**: Modern interface using shadcn/ui components
-
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14 (React.js with App Router)
@@ -44,11 +39,6 @@ A responsive React-based web application built with Next.js that allows users to
 - Fluid layout that adapts to all screen sizes
 - Card-based grid system for repositories
 - Responsive navigation and typography
-
-### 4. Bonus Features ✅
-- **Debounced Search**: Reduces API calls with 500ms delay
-- **Dark Mode**: System preference detection with manual toggle
-- **Enhanced UX**: Loading skeletons, external links, badges
 
 ## 🚀 Getting Started
 
@@ -117,57 +107,4 @@ Built using shadcn/ui components:
 - **Badges**: For repository languages and stats
 - **Skeleton**: For loading states
 
-## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically with zero configuration
-
-### Deploy to Netlify
-1. Build the project: \`npm run build\`
-2. Deploy the \`out\` folder to Netlify
-
-## 📁 Project Structure
-
-\`\`\`
-├── app/
-│   ├── globals.css          # Global styles and Tailwind
-│   ├── layout.js            # Root layout with theme provider
-│   ├── loading.js           # Loading component
-│   └── page.js              # Main search interface
-├── components/
-│   ├── theme-provider.jsx   # Theme context provider
-│   └── ui/                  # shadcn/ui components
-├── README.md                # Project documentation
-└── package.json             # Dependencies and scripts
-\`\`\`
-
-## 🧪 What This Tests
-
-- **API Integration**: Fetch API usage with GitHub REST API
-- **Component Structure**: Modular React component design
-- **State Management**: useState and useEffect hooks
-- **Error Handling**: Try-catch blocks and user feedback
-- **Responsive CSS**: Tailwind CSS responsive utilities
-- **Clean Code**: Readable, maintainable JavaScript code
-- **User Experience**: Loading states, error messages, intuitive UI
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (\`git checkout -b feature/amazing-feature\`)
-3. Commit your changes (\`git commit -m 'Add amazing feature'\`)
-4. Push to the branch (\`git push origin feature/amazing-feature\`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- GitHub REST API for providing user and repository data
-- shadcn/ui for beautiful, accessible UI components
-- Tailwind CSS for utility-first styling
-- Lucide React for consistent iconography
